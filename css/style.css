@@ -19,7 +19,7 @@ body {
 .text-vertical-center {
     display: table-cell;
     text-align: center;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .text-vertical-center h1 {
@@ -61,7 +61,7 @@ body {
 
 hr.medium {
     max-width: 1200px;
-    margin-left: 0px
+    margin-left: 0px;
 }
 
 /* Side Menu */
@@ -124,7 +124,7 @@ hr.medium {
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
+    color: #fcfff5;
     background: none;
 }
 
@@ -156,17 +156,19 @@ hr.medium {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../images/MaracasHdrBgnd.jpg) no-repeat center center scroll;
+    background: url(../images/callout4.jpe) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+
 /* About */
 
 .about {
     padding: 50px 0;
+    background-color: #fcfff5;
 }
 
 /* Services */
@@ -180,9 +182,12 @@ hr.medium {
 }
 
 .bg-primary {
-    color: #fff;
-    background-color: rgb(158, 158, 158);
+    color: #fcfff5;
+    background-color: #334d5c;
     height: 
+}
+#services .text-center h2 {
+    color: #fcfff5;
 }
 
 /* Callout */
@@ -191,18 +196,21 @@ hr.medium {
     display: table;
     width: 100%;
     height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    color: #fcfff5;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/callout10.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+.callout h1 {
+    color: #fcfff5;
+}
 
 /* Portfolio */
-
 .portfolio {
     padding: 50px 0;
+    background-color: #fcfff5;
 }
 
 .portfolio-item {
@@ -243,4 +251,5 @@ hr.medium {
 
 footer {
     padding: 100px 0;
+    background-color: #fcfff5;
 }
